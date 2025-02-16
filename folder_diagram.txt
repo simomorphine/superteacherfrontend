@@ -1,0 +1,45 @@
+src/
+├── tests/
+├── components/      # Reusable UI components (buttons, forms, tables)
+│   ├── Navbar.js
+│   ├── Sidebar.js
+│   ├── Footer.js
+│   ├── Button.js
+│   ├── Table.js
+│   ├── Form.js
+│
+├── pages/           # Pages like Dashboard, Schedule, Reports
+│   ├── Dashboard.js
+│   ├── Reports.js
+│   ├── Schedule.js
+│   ├── Exercises.js
+│   ├── Settings.js
+│
+├── services/        # API calls to Flask backend
+│   ├── api.js
+│   ├── auth.js
+│
+├── utils/           # Utility functions (formatting, validation)
+│   ├── exportPDF.js
+│   ├── exportExcel.js
+│   ├── formatDate.js
+│
+├── hooks/           # Custom hooks (e.g., useAuth, useFetch)
+│   ├── useAuth.js
+│   ├── useFetch.js
+│
+├── context/         # Global state management
+│   ├── AuthContext.js
+│   ├── AppContext.js
+│
+├── assets/          # Images, icons, fonts
+│   ├── logo.png
+│   ├── background.jpg
+│   ├── icons/
+│
+├── styles/          # Global styles & themes
+│   ├── App.css
+│   ├── theme.css
+│
+├── App.js           # Main component
+├── index.js         # Entry point
